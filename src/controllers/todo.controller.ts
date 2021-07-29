@@ -17,7 +17,7 @@ import {
   requestBody,
   response,
 } from '@loopback/rest';
-import {Todo} from '../models';
+import {Todo, TodoList} from '../models';
 import {TodoRepository} from '../repositories';
 
 export class TodoController {
@@ -146,5 +146,10 @@ export class TodoController {
   })
   async deleteById(@param.path.number('id') id: number): Promise<void> {
     await this.todoRepository.deleteById(id);
+  }
+  async getTodoList(
+    @param.path.number('id') id: typeof Todo.prototype.id,
+  ): Promise<TodoList> {
+    return this.todoRepository.todoList(id);
   }
 }

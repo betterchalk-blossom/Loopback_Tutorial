@@ -1,7 +1,7 @@
 {
   "ids": {
     "Todo": 5,
-    "TodoList": 3,
+    "TodoList": 4,
     "TodoListImage": 2
   },
   "models": {
@@ -13,7 +13,8 @@
     },
     "TodoList": {
       "1": "{\"title\":\"Sith lord's check list\",\"color\":\"blue\",\"id\":1}",
-      "2": "{\"title\":\"My daily chores\",\"color\":\"red\",\"id\":2}"
+      "2": "{\"title\":\"My daily chores\",\"color\":\"red\",\"id\":2}",
+      "3": "{\"title\":\"grocery list\",\"id\":3}"
     },
     "TodoListImage": {
       "1": "{\"value\":\"This is todolist image with id 2\",\"todoListId\":2,\"id\":1}"
