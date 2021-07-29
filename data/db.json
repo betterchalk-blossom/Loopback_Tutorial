@@ -2,7 +2,9 @@
   "ids": {
     "Todo": 5,
     "TodoList": 4,
-    "TodoListImage": 2
+    "TodoListImage": 2,
+    "User": 2,
+    "UserCredentials": 2
   },
   "models": {
     "Todo": {
@@ -18,6 +20,12 @@
     },
     "TodoListImage": {
       "1": "{\"value\":\"This is todolist image with id 2\",\"todoListId\":2,\"id\":1}"
+    },
+    "User": {
+      "5f05f0e9-dad0-4ae5-a66a-837e541370d2": "{\"id\":\"5f05f0e9-dad0-4ae5-a66a-837e541370d2\",\"email\":\"blossom@gmail.com\"}"
+    },
+    "UserCredentials": {
+      "4feeb021-7af4-4fe4-8313-23b9d9018b3c": "{\"id\":\"4feeb021-7af4-4fe4-8313-23b9d9018b3c\",\"password\":\"$2a$10$ZSGGfpBlOBYISEdLPD5JbeTfG3V85qPrJolF.rAd/GQzF6unmCX4m\",\"userId\":\"5f05f0e9-dad0-4ae5-a66a-837e541370d2\"}"
     }
   }
 }
